@@ -1,10 +1,24 @@
 print("==𝙳𝙴𝙰𝙳 𝙱𝙾𝙳𝚈==")
 
-senha = input("Who are you? ")
+senha_correta = "Kenjaku"
+tentativas = 3
 
-if senha == "Kenjaku":
-    print("Welcome Kenjaku-sama!")
+while tentativas > 0:
 
+    senha = input("Who are you? ")
+
+    if senha == senha_correta:
+        print("Welcome Kenjaku-sama!")
+        break
+
+    tentativas -= 1
+    print("You are not Him, go away...")
+    print(f"Attempts remaining: {tentativas}")
+
+if tentativas == 0:
+    print("Access blocked!")
+
+else:
     # Login validado
     while True:
         print("\n=== Kenjaku's Brain ===")
@@ -22,6 +36,3 @@ if senha == "Kenjaku":
 
         else:
             print("Invalid option!")
-
-else:
-    print("You are not Him, go away...")
