@@ -1,6 +1,6 @@
-print("==𝙳𝙴𝙰𝙳 𝙱𝙾𝙳𝚈==")
+print("==Uraume-San==")
 
-senha_correta = "Kenjaku"
+senha_correta = "Sukuna"
 tentativas = 3
 
 while tentativas > 0:
@@ -8,7 +8,7 @@ while tentativas > 0:
     senha = input("Who are you? ")
 
     if senha == senha_correta:
-        print("Welcome Kenjaku-sama!")
+        print("Welcome Master Sukuna!")
         break
 
     tentativas -= 1
@@ -21,14 +21,14 @@ if tentativas == 0:
 else:
     # Login validado
     while True:
-        print("\n=== Kenjaku's Brain ===")
-        print("[1] Kenjaku's brute force")
+        print("\n=== Uraume Powers ===")
+        print("[1] Dispositive Info")
         print("[0] Exit")
 
         opcao = input("Choose: ")
 
         if opcao == "1":
-            print("Kenjaku's brute force selected")
+            print("Dispositive Info force selected")
 
         elif opcao == "0":
             print("Exiting...")
