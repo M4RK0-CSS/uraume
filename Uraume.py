@@ -28,7 +28,11 @@ else:
         opcao = input("Choose: ")
 
         if opcao == "1":
-            print("Dispositive Info force selected")
+            print("Dispositive Info selected")
+            print(f"Sistema: {plataform.system()}")
+            print(f"Versão: {plataform.version()}")
+            print(f"Arquitetura: {plataform.machine()}")
+            print(f"Nome do Dispositivo: {plataform.node()}")
 
         elif opcao == "0":
             print("Exiting...")
