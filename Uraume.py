@@ -23,7 +23,7 @@ else:
     while True:
         print("\n=== Uraume Help ===")
         print("[1] Dispositive Info")
-        print("[2] ")
+        print("[2] 
         print("[0] Exit")
 
         opcao = input("Choose: ")
