@@ -21,18 +21,19 @@ if tentativas == 0:
 else:
     # Login validado
     while True:
-        print("\n=== Uraume Powers ===")
+        print("\n=== Uraume Help ===")
         print("[1] Dispositive Info")
+        print("[2] ")
         print("[0] Exit")
 
         opcao = input("Choose: ")
 
         if opcao == "1":
             print("Dispositive Info selected")
-            print(f"Sistema: {plataform.system()}")
-            print(f"Versão: {plataform.version()}")
-            print(f"Arquitetura: {plataform.machine()}")
-            print(f"Nome do Dispositivo: {plataform.node()}")
+            print(f"Sistema: {platform.system()}")
+            print(f"Versão: {platform.version()}")
+            print(f"Arquitetura: {platform.machine()}")
+            print(f"Nome do Dispositivo: {platform.node()}")
 
         elif opcao == "0":
             print("Exiting...")
